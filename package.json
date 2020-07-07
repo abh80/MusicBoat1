@@ -1,0 +1,39 @@
+{
+  "name": "hmmmm",
+  "version": "0.0.0",
+  "description": "hmmm!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "chalk": "^4.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dblapi.js": "^2.4.0",
+    "dis-gui": "^2.1.0",
+    "discord-ytdl-core": "^2.0.1",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.2.3",
+    "genius-lyrics": "^3.0.0",
+    "hastebin-gen": "^2.0.5",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^2.6.0",
+    "node-opus": "^0.3.3",
+    "quick.db": "^7.1.1",
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "ytdl-core": "^3.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

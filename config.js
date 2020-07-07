@@ -1,6 +1,6 @@
 module.exports = {
-  token: "",
-  youtube: "AIzaSyDS5vi3CfByiMYEo32aGNxBQHxOy3VyDBw",
+  token: "secret",
+  youtube: "",
   admin: ["460751723342987274"],
   debug: false,
 

@@ -21,7 +21,6 @@ class Nowplaying extends Command {
   async execute(message, args, Discord) {
     let queue = this.client.queue.get(message.guild.id);
     let radio = this.client.radio.get(message.guild.id)
-    let m = await message.channel.send('<a:load:718426626320367718> Fetching Info')
     if(radio&&radio.url){
     
       req(radio.url,function(error,response,html){
